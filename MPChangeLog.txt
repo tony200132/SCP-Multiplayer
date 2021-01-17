@@ -1,0 +1,567 @@
+--------------------------------------------------------------------------------------
+v0.67
+- Fixed MAV in end of intro
+- Fixed event sending data
+- Fixed client NPC spawning
+- Fixed room2tunnel
+- Fixed elevators
+- Fixed room2nuke NPC
+- Fixed intro ClassD texture
+- Fixed blue lights
+- Fixed events
+- Fixed server list
+- Fixed endings (credits)
+- Fixed memory leak (voice)
+- Fixed weapon attach to players (does not disappear after hiding the weapon)
+- Now you can't change MULTIPLAYER options in options.ini (to not give an advantage)
+- Now you can't change nickname while you in lobby
+- Added 4K screen support
+- Now the server doesn't restart when the main player exits
+- Improved voice
+- Optimized door synchronization (smooth and reduced bytes)
+- Data compression (the game spend 100-200 MB instead of 300 MB per hour)
+- Multiplayer optimization
+- Server.exe optimization
+- Returned "hidedistance" command
+- Updated settings GUI
+--------------------------------------------------------------------------------------
+v0.66
+- Game optimization
+- Fixed MTF announcements (spawns when all players loaded)
+- Fixed WAITING FOR OTHERS PLAYERS
+- Fixed voice
+- Fixed 008 hand icon
+- Fixed sinkhole creating
+- Fixed room2nuke NPC texture
+- Fixed some bugs with 1048a
+- Remove player game saving (Because the client doesn't have everything synchronized)
+- Remove adding bots in lobby
+- Added 3D Voice (distance voice)
+- Added voice quality
+- Set echo for intercom (room2ccont)
+- Updated voice GUI
+--------------------------------------------------------------------------------------
+v0.65 patch
+- Game optimization
+- Multiplayer optimization
+- Fixed MTF announcements
+- Fixed MTF spawn while announcement is playing
+- Fixed settings
+- Fixed multiplayer settings
+- Fixed server.exe
+--------------------------------------------------------------------------------------
+v0.65 - 	New Year Update!
+- Added New Year Hats on player (fun)
+- Fixed server list
+- Updated server list GUI
+- Fixed multiplayer GUI
+- Fixed 173 invisible model
+- Update menu GUI
+- Update menu
+- Update voice GUI
+- Game optimization
+- Multiplayer optimization
+- Updated loading screen (waiting for other players)
+- Synced some sounds
+- Fixed room2sl doors
+--------------------------------------------------------------------------------------
+v0.64
+- You can save position (F5)
+- Removed hidedistance console command
+- Optimizated server list network
+- Optimizated doors sync for players ( server to player )
+- If main player disconnect, then server will be restart. ( items, doors, npcs don't sync )
+- Removed player blinking (KEY BLINK)
+- Fixed player bots synchronization
+--------------------------------------------------------------------------------------
+v0.63 PATCHv2
+- Synced some sounds
+- You can play by SCPS in story mode (role 1-12 in console)
+- Fixed 096
+- Improved voice intercom in room2ccont.
+- Fixed sync rocket
+--------------------------------------------------------------------------------------
+v0.63 PATCH
+- Added decals for SCP-106 in breach mode
+- Added moving sound for SCP-173 in breach mode
+- Fixed SCPs damages
+- Added GUI for others SCPs
+--------------------------------------------------------------------------------------
+v0.63
+- Fixed "HOST SERVER"
+- Added deathmatch round for breach mode (GUARDS AND HAOS pvp)
+- Fixed breach lobby timer (set 2 mins)
+- Fixed voice GUI
+--------------------------------------------------------------------------------------
+v0.62
+- Fixed 008 surgeon zombie
+- Improved password system for servers
+- Fixed bugs with events (1048a,room2tesla . . .)
+- Synced some players sounds
+- Fixed chat
+- Fixed NPCs gravity for guests when Main Player too far
+- Fixed Memory Access Violation when players going to gateb or gatea
+- Fixed flickering rooms after reconnect
+- Fixed items disappearing
+--------------------------------------------------------------------------------------
+v0.61
+- Game optimization
+- Network optimization
+- Fixed 008 hit
+- Added (voice,chat) keys to settings
+- Fixed some bugs
+- Fixed tesla gate
+- Fixed server console
+- Fixed breach reconnect
+--------------------------------------------------------------------------------------
+v0.6 - leaving early access
+- Fixed elevator in gatea
+- Added 106 to breach mode
+- Added 939 to breach mode
+- Added 966 to breach mode
+- Added janitor to breach mode
+- Fixed ragdolls skins
+- Fixed Items
+- Fixed items in single mode
+- Fixed more glitches in events
+- Fixed SCP-939
+- Added game progress saving ( You can't load save from original SCP CB 1.3.11 )
+- Added lobby timer for breach mode ( 2 minutes to start )
+--------------------------------------------------------------------------------------
+ALPHA 0.5.8p
+- Fixed (HOST SERVER) unsync (big)
+- Fixed waiting for others players (HOST SERVER)
+- Fixed elevators
+--------------------------------------------------------------------------------------
+ALPHA 0.5.8
+- Added Received And Writed in Debug HUD
+- Fixed WAITING for others players
+- Fixed voice (reduced sendings)
+--------------------------------------------------------------------------------------
+ALPHA 0.5.7
+- Fixed antialiased text
+- Fixes with map seed
+--------------------------------------------------------------------------------------
+ALPHA 0.5.6p
+- Added "Suicide" button in story mode
+- Fixed some bugs
+- Now you can suicide if you SCP
+- Now you can't be killed if you are spectator
+--------------------------------------------------------------------------------------
+ALPHA 0.5.6
+- Synced objects room
+- Synced events (it fixed some bugs)
+- Added reconnect to story mode
+--------------------------------------------------------------------------------------
+ALPHA 0.5.5
+- Fixed rockets collision
+- Added minigun
+- Fixed accept data
+- Fixed items in breach mode
+- Super reduction memory consumption
+- Added players menu (TAB)
+--------------------------------------------------------------------------------------
+ALPHA 0.5.4
+- Just super optimization.
+- Fixed mp5sd animations
+- Fixed player ragdolls in breach mode
+- Added bots for breach mode ( /createbot ) (for rcon admin)
+- Fixed teleport
+- Updated explosion sound
+- Update guns icons
+--------------------------------------------------------------------------------------
+ALPHA 0.5.3
+- Fixed items
+- Updated Rocket Launcher
+- Fixed Rocket Launcher
+- Less speed for rocket
+- More synchronizations for multiplayer mod
+--------------------------------------------------------------------------------------
+ALPHA 0.5.2
+- Added RCON
+    - rcon login
+    - rcon banip
+    - rcon kick
+    - rcon reloadbanlist
+    - rcon hostname
+    - rcon status
+    - rcon commands
+    - rcon restart
+    - rcon password
+    - rcon gravity
+- Updated server list GUI
+- Updated guns
+- Fixed items in HOST SERVER
+- Fixed 096
+- Added bazooka
+--------------------------------------------------------------------------------------
+ALPHA 0.5.1
+- Fixed 914 in breach mode
+- Set infinite stamina for breach mode.
+- Fixed guns
+- Update guns (more fps)
+- Small fixes in server synchronization
+--------------------------------------------------------------------------------------
+ALPHA 0.5
+- Fixed NPCs
+- Set random to events
+- Fixed antialiased text
+- Fixed MAV after joining 16 player
+- Added smart bots
+- Added breach mode
+- Added Mp5-sD
+- Updated server list
+- Updated server list GUI
+- Now you are can find local servers on port 50001
+- Added [INTERNET, LOCAL, FAVORITES, HISTORY] tabs for convenience
+- Added more servers in INTERNET TAB
+- Updated P90 model
+- Updated server join
+- Updated recoil
+- Added news line in server.exe
+- If the version of the multiplayer settings file does not match the multiplayer version, then the settings are reset
+- Fixed (ClassD,Scientist ...) spawning in breach mode
+- The player goes to AFK if he doesn't synced for more than 2 seconds
+- Fixed server.exe players
+- Fixed bugs
+- Updated console
+- Updated files directories
+- Now server can run in background mode
+- Fixed map
+- Fixed bloodloss
+- Now you can play in fullscreen
+- Added guns GUI
+--------------------------------------------------------------------------------------
+ALPHA 0.4.9 PATCH
+- Fixed room2sl camera
+--------------------------------------------------------------------------------------
+ALPHA 0.4.9
+- Fixed room2tunnel flickering
+- Fixed room2tesla sounds
+- 90 framelimit has removed
+- Fixed event elevators synchronization
+- Small fixes
+--------------------------------------------------------------------------------------
+ALPHA 0.4.8
+- Small fixes
+- Teleport 096 to his room when he killed player
+- Set permanent 90 framelimit for multiplayer data optimization
+- Tickrate now applies to the client
+--------------------------------------------------------------------------------------
+ALPHA 0.4.7
+- Small fixes
+--------------------------------------------------------------------------------------
+ALPHA 0.4.6
+- Fixed code
+- Fixed 049 sounds
+- Fixed room2sl
+- Added "HOST SERVER" button
+--------------------------------------------------------------------------------------
+ALPHA 0.4.5
+- Fixed NPCs
+- Fixed unsync in decals
+- Small fixes
+--------------------------------------------------------------------------------------
+ALPHA 0.4.4
+- Update guns
+- Update guns recoil
+- Small fixes
+--------------------------------------------------------------------------------------
+ALPHA 0.4.3
+- Fixed NPCs hits
+- Optimization multiplayer datas
+- NPCs became smoother
+- Items became smoother
+- Fixed NPCs bones
+- Fixed NPCs sounds on client-side
+- Fixed guard when he giving you the paper
+- 3D Sounds for player sounds
+- Synced sounds in some events
+--------------------------------------------------------------------------------------
+ALPHA 0.4.2
+- Fixed 008
+- Small fixes
+- Fixed errors
+- Update screenshots (small size)
+--------------------------------------------------------------------------------------
+ALPHA 0.4.1
+- Fixed voice chat
+- Fixed 939
+- Fixed player sound
+- Fixed unauthorized logout from the server
+- MAX_ITEMS reduced to 321
+- Fixed 106
+--------------------------------------------------------------------------------------
+ALPHA 0.4
+- Optimization server sync (items, doors)
+- Fixed player animation in AFK
+- Fixed "Server timed out"
+- Fixed NPCs gravity when nearest player in next room
+- Game optimization
+--------------------------------------------------------------------------------------
+ALPHA 0.3.9
+- Breach mode completely removed
+- Improved server sync
+- Fixed players cameras in UpdateEvents()
+- Small fixes
+- Removed P90, USP (?)
+- Removed 'role' command in console
+- Fixed player objects
+- Fixed more errors
+- Removed spectate
+- Multiplayer optimization
+- Removed unnecessary network syncs
+- Lowered maximum players to 32
+- Lowered maximum items to 641
+- Fixed free player objects
+--------------------------------------------------------------------------------------
+ALPHA 0.3.8
+- Fixed voice
+- Fixed NPCs
+- Memory optimization
+--------------------------------------------------------------------------------------
+ALPHA 0.3.7
+?
+--------------------------------------------------------------------------------------
+ALPHA 0.3.6
+- Small fixes
+--------------------------------------------------------------------------------------
+ALPHA 0.3.5
+- Small fixes
+--------------------------------------------------------------------------------------
+ALPHA 0.3.4
+- Improved server sync
+- Added game optimization
+- Fixed 99% when you loading
+--------------------------------------------------------------------------------------
+ALPHA 0.3.3
+- Fixed doors timer
+- Fixed NTF announcement
+- Fixed sync doors
+- Fixed items
+- Fixed multiplayer images
+- Fixed player sync
+--------------------------------------------------------------------------------------
+ALPHA 0.3.2p
+- Reduced data transfer about items
+--------------------------------------------------------------------------------------
+ALPHA 0.3.2
+- Optimization memory
+- Fixed items
+- Fixed items flying
+- Fixed crash when you start multiplayer
+- Added dedicated server CPU
+- More fixes and errors
+--------------------------------------------------------------------------------------
+ALPHA 0.3.1
+- Fixed items
+- Fixed player objects
+- Fixed more errors
+--------------------------------------------------------------------------------------
+ALPHA 0.3
+- Improved items sync
+- Improved NPC sync
+- Improved chat sync
+- Fixed more bugs
+- Fixed more errors ( execute fps falling )
+- Fixed doors hidedistance ( if im don't fix it, then you have less fps )
+- Fixed NPC gravity
+- Fixed freeze when player joined
+- Fixed nicknames in breach mode
+- Added connecting player in chat
+- Fixed pocketdimension
+- Fixed spectate
+- P90 shoots faster
+- Now, guns have more recoil
+- Fixed drop items while dead
+- Fixed SCP drop items
+- Fixed spectate attach players ( hide in firstperson )
+- Fixed breach timer
+- improved light in breach mode ( fps doesn't fall )
+- Added "suicide" button in breach mode
+- Added console breach ( type: role 1-7 ) - ( nocheat )
+MTF = 1
+GUARD = 2
+CLASSD = 3
+SCIENTIST = 4
+173 = 5
+049 = 6
+CHAOS = 7
+--------------------------------------------------------------------------------------
+ALPHA 0.2.9
+- Fixed SCPs in Breach mode
+- Delete room2tunnel event in BreachMode
+- Fixed pocketdimension
+- Fixed spectate
+- Now SCPs can't drop items
+--------------------------------------------------------------------------------------
+ALPHA 0.2.8
+- Fixed guard gun rotation
+- Fixed bugs
+- Fixed sending data
+- Fixed items...
+- Fixed global effects 966
+--------------------------------------------------------------------------------------
+ALPHA 0.2.7 PATCH
+- Fixed drop item
+--------------------------------------------------------------------------------------
+ALPHA 0.2.7
+- Improved microphone quality and microphone data size (it turns out that 8 kb was sent, now 3 kb and the quality has been improved)
+--------------------------------------------------------------------------------------
+ALPHA 0.2.6
+- Improved voice chat (3d position, volume change) [deleted]
+- Added difficulties
+--------------------------------------------------------------------------------------
+ALPHA 0.2.5
+- Added save positions ( I made these position saves at the initial stage of development (April), I just did not turn on them. You will wonder why I did it for so long, because I was lazy and I was studying )
+- Added teleport to players ( teleport in console )
+- Now server eating more less RAM
+- Added protection against data changes during data transfer ( someone will be able to send someone else's data if he finds out what these packets are for, and as a result will be able to change the multiplayer data )
+- Fixed 914
+- Added queue for droping and picking up items
+- Now when you dead, you can't picking up items
+- Now everything depends on the server [deleted]
+--------------------------------------------------------------------------------------
+ALPHA 0.2.4
+- Added True Or False in boolean commands in dedicated server ( server.cfg )
+- Fixed items
+--------------------------------------------------------------------------------------
+ALPHA 0.2.3 PATCH
+- Fix items (You cannot combine these two items.) in single mode
+- Remove jumping in single mode
+--------------------------------------------------------------------------------------
+ALPHA 0.2.3
+- Reduced items data size ( A lot of data was sent via UDP, as a result, the person did not see items )
+- Reduced player data size
+- Remove MAV when player enter more than 255 symbols in chat
+--------------------------------------------------------------------------------------
+ALPHA 0.2.2 PATCH
+- Fix camera in room2doors173,room2offices3,lockroom173
+- Fix main server synchronization
+- Now server show true ping
+--------------------------------------------------------------------------------------
+ALPHA 0.2.2
+- Fixed two doors sound
+- Fixed event
+- Fixed items
+- Fixed nicknames
+- Reduced data transfer in main synchronization
+- Changed SCP Health to 5000
+--------------------------------------------------------------------------------------
+ALPHA 0.2.1
+- Now when main player disconnect, the server changes the main player to a new one in a story mode, instead of quitting the game
+- Improved server sync ( as a result - Reduced CPU consumption, for players more FPS )
+- Fixed items
+- Fixed non-host player gravity
+- Added tickrate
+- Fixed wrong maxplayers
+- Fixed SCPs target player
+- Maybe fixed flickering rooms
+--------------------------------------------------------------------------------------
+ALPHA 0.2 PATCH
+- Remove 008 lockdown in breach mode
+- Added gun sounds
+--------------------------------------------------------------------------------------
+ALPHA 0.2
+- Maybe fixed NPC
+- Fix elevators
+- Added FN P90, USP Tactical [story mode and breach mode]
+- Added breach mode - [announcements, guns, scps, classd, scientists, guards, ntfs]
+- Fix items, sync items
+- Fix 914
+- Added new ClassD
+- Added guns attach to players
+- Optimization sending data
+- Fix blinking endings
+- Fix blinking hand icons
+- Fix events
+- Fix intro falling
+- Fixed recursion sending data when execute RemoveItem
+- Fixed item breakdance after spawn from non-host side
+- More fixes.......
+--------------------------------------------------------------------------------------
+ALPHA 0.1.5 - PATCH
+- Fix intro (maybe)
+- Fix falling FPS
+- Fix events
+- Added player jumping animation
+--------------------------------------------------------------------------------------
+ALPHA 0.1.5
+- Now 096 is stop when he killed player
+- Some fixes
+- Sync NPC sounds
+--------------------------------------------------------------------------------------
+ALPHA 0.1.4
+- Fixed bugs
+- Fixed room2storage
+- Fixed items
+--------------------------------------------------------------------------------------
+ALPHA 0.1.3 - Patch
+- Fixed crash when somebody talk in voice and somebody doesn't have voice
+- Fixed bug
+- Fixed jump mode in server.exe
+--------------------------------------------------------------------------------------
+ALPHA 0.1.3
+- Change lobby
+- Fixed bugs
+- Added jump mode - You can set the jump height in server.cfg and turn on/off the jump mode
+- Added change to the maximum number of players
+--------------------------------------------------------------------------------------
+ALPHA 0.1.2 - PATCH
+- Fixed 096
+--------------------------------------------------------------------------------------
+ALPHA 0.1.2
+- Fixed blinking hand icons
+- Fixed global effects 173
+- Fixed MAV on server and client
+--------------------------------------------------------------------------------------
+ALPHA 0.1.1 - PATCH
+- Fixed bugs
+- Fixed sending data
+--------------------------------------------------------------------------------------
+ALPHA 0.1.1
+- Fixed bugs
+- Fixed 939 SCPS in room3storage
+- Fixed SCP-914
+- Added singleplayer mode
+- Added password
+- Fixed freeze when transferring data via TCP protocol - [DELETE] only UDP
+- Maybe fixed MAV on server and client
+--------------------------------------------------------------------------------------
+ALPHA 0.1
+- Fixed bugs
+--------------------------------------------------------------------------------------
+ALPHA 0.09
+- Optimization multiplayer by compression data
+--------------------------------------------------------------------------------------
+ALPHA 0.08
+- Added voice chat.
+--------------------------------------------------------------------------------------
+ALPHA 0.07
+- Added Dedicated Server
+- Added loading scripts from the folder - [REDACTED] - Will be added in future versions
+--------------------------------------------------------------------------------------
+Past versions (I don't know when I did it, then there were no versions)
+- Added nicknames.
+- Added chat
+- Sync all sounds and decals
+- Sync events and NPCs
+- Transition from TCP to UDP
+- Completely changed the style of multiplayer
+- Added server list. - [REDACTED] - Will be added in future versions
+- Added port to create new server.
+- Instead of 2 players, now 16 players
+- Added manipulate player bones
+- Added attachs objects to players such as: Gas Mask, Armour, NVG
+- Added pistol from NTF mod - [REDACTED] - Will be added in future versions
+- Added no cheat mod. Now you can disable console to players.
+- Added players to ESC menu. Now you can kick the players from server. - [REDACTED] - Will be added in future versions
+- Added smart bots. - [REDACTED] - Will be added in future versions
+- Added points for which you can buy skins - [REDACTED] - Will be added in future versions
+- Added skins shop. - [REDACTED] - Will be added in future versions
+- Added great optimization.
+- Added spectate mod. You must enter to chat /spectate or select in players menu. - [REDACTED] - Will be added in future versions
+- New input box. Now you can delete letters while holding Backspace, or add new symbols while holding keys.
+- Added screenshots.
+- Added AFK mod.
+--------------------------------------------------------------------------------------
